@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #1E1E1E ;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+}
+.align{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerLogin{
+  display: flex;
+  align-items: center;
+  background-color: #2F2E41;
+  border-radius: 16px;
+  width: 90rem;
+  height: 45rem;
+  margin:auto;
+  flex-wrap: wrap;
+}
+.text{
+  display: flex;
+  place-self: start;
+  padding: 3rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  color:#EBEBEB;
+  height: min-content;
+}
+
+.inputSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+  height: min-content;
+}
+ .inpt{
+  width: 30rem;
+  height: 3rem;
+  background-color: #E6E6E6;
+  color: #2F2E41;
+  font-size: larger;
+  border-radius: 6px;
+  border: none;
+} 
+
+.input{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+span{
+  margin-right: 1rem; 
+}
+
+.acessar {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  width: 15rem;
+  border: 0px;
+  font-weight: 500;
+  box-shadow: 0px 0px 14px -7px #FAA831;
+  background-image: linear-gradient(45deg, #c74c34 0%, #F09819  51%, #ad3c25  100%);
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+  font-size: larger;
+  font-family: 'Inter', sans-serif;
+}
+
+.acessar:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.acessar:active {
+  transform: scale(0.95);
+}
