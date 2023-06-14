@@ -5,42 +5,27 @@
 body{
   background-color: #1E1E1E ;
 }
-.logo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 20rem;
-}
 .align{
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 .containerLogin{
   display: flex;
+  justify-content: center;
   align-items: center;
   background-color: #2F2E41;
   border-radius: 16px;
   width: 90rem;
   height: 45rem;
-  margin:auto;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
-.text{
-  display: flex;
-  place-self: start;
-  padding: 3rem;
-  font-family: 'Inter', sans-serif;
-  font-size: 2rem;
-  color:#EBEBEB;
-  height: min-content;
-}
-
 .inputSection{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1.3rem;
   flex-direction: column;
   height: min-content;
 }
@@ -52,6 +37,7 @@ body{
   font-size: larger;
   border-radius: 6px;
   border: none;
+  padding-left: 1rem;
 } 
 
 .input{
@@ -59,7 +45,30 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+  margin-left: 4%;
+}
 
+.avalogo{
+width: 30rem;
+}
+.link{
+display: flex;
+justify-content: center;
+place-self: end;
+}
+.link>a{
+  color:#FAA831;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+}
+.link>a:hover{
+text-decoration:underline;
+}
 span{
   margin-right: 1rem; 
 }
@@ -97,3 +106,113 @@ span{
 .acessar:active {
   transform: scale(0.95);
 }
+
+@media (max-width: 1280px){
+ .containerLogin{
+  width: 65rem;
+  height: 30rem;
+ }
+ .inpt{
+  width: 26rem;
+ }
+ .acessar{
+  width: 13rem;
+ }
+ .avalogo{
+  width: 20rem;
+ }
+}
+
+@media (max-width: 1024px){
+  .containerLogin{
+    width: 47rem;
+    height: 25rem;
+   }
+   .inpt{
+    width: 26rem;
+    height: 2.5rem;
+   }
+   .acessar{
+    width: 10rem;
+    padding: 0.75rem 0.5rem;    
+    font-size: medium;
+   }
+   .avalogo{
+    width: 16rem;
+    margin-left: 2rem;
+   }
+   .user{
+    height: fit-content;
+   }
+}
+
+@media (max-width: 768px) {
+  .containerLogin{
+    width: 35rem;
+    height: 27rem;
+   }
+   .inpt{
+    width: 15rem;
+    height: 2rem;
+    font-size: small;
+   }
+   .acessar{
+    width: 10rem;
+    padding: 0.75rem 0.5rem;    
+    font-size: medium;
+    margin-top: 1rem;
+   }
+   .avalogo{
+    width: 16rem;
+    margin-left: 2rem;
+   }
+   .user>img{
+    width: 1.6rem;
+    height: 1.5rem;
+   }
+}
+ @media(min-width:360px) and (max-width:500px){
+  .containerLogin{
+    width: 22rem;
+    height: 35rem;
+   }
+   .inpt{
+    width: 14rem;
+    height: 2rem;
+    font-size: small;
+   }
+   .acessar{
+    width: 10rem;
+    padding: 0.8rem 0.5rem;    
+    font-size: 0.9rem;
+    margin-top: 2rem;
+   }
+   .avalogo{
+    width: 14rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+   }
+   .user>img{
+    width: 1rem;
+    height: 1rem;
+   }
+   .link>a{
+    font-size: 0.6rem;
+  }
+  .inputSection{
+    gap: 0.7rem;
+  }
+ }
+
+ @media(max-width:360px){
+  .containerLogin{
+    width: 20rem;
+  }
+  .avalogo{
+    width: 15rem;
+    margin-left: 0.5rem;
+  }
+  .acessar{
+    margin-top: 2rem;
+  }
+ }
