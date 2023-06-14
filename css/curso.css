@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: #EFF6FF;
   }
  
   .container {
@@ -18,7 +19,7 @@ body {
     align-items: center;
   }
   .logo {
-    margin-left: 20px;
+    margin-left: 103.95px;
   }
   .menu {
     display: flex;
@@ -40,6 +41,66 @@ body {
     color: #989EA6;
     border-radius: 1px;
   }
- 
- 
+  :right{
+    
+  }
+  /* Calendario */
+  .calendar {
+    width: 258px;
+    height: 276px;
+    padding: 1px;
+    margin-top: 128px;
+    margin-left: 17px;
+    box-shadow: 5px 5px 10px #ebe9ff ;
+    border-radius: 10px;
+  }
+  table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  
+  caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  th {
+      font-size: 11px;
+  }
+  td{
+    width: calc(100% / 7);
+    height: 40px; 
+    border: none;
+    outline: none;
+    font-size: 14px;
+  }  
+  .circle {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* calendario */
+  .proximoEv{
+    font: normal 16px Arial;
+    margin-top: 46px;
+    margin-left: 26px;
+  }
+  .container2{
+    font: normal 14px Arial;
+    width: 190px;
+    height: 62px;
+    padding: 10px;
+    margin-left: 42px;
+    border-bottom: 1px solid #FAA831;
+  }
+  .container3{
+    font: normal 16px Arial;
+    margin-top: 46px;
+    margin-left: 26px;
+  }
   
