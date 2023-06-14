@@ -45,10 +45,11 @@ body {
   }
   .componente-menu {
     width: 100%;
+    height: 100%;
   }
   /* Subtitle */
   .subtitle {
-    width: 20%;
+    width: 29.5%;
     display: flex;
     justify-content: end;
     font-weight: 800;
@@ -59,23 +60,68 @@ body {
     font-weight: 700;
     font-size: 18px;
   }
+   /* Calendario */
+   .calendar {
+    width: 258px;
+    height: 276px;
+    padding: 1px;
+    box-shadow: 5px 5px 10px rgb(199, 199, 199) ;
+    border-radius: 10px;
+  }
+  table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  
+  caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  th {
+      font-size: 11px;
+  }
+  td{
+    width: calc(100% / 7);
+    height: 40px; 
+    border: none;
+    outline: none;
+    font-size: 14px;
+  }  
+  .circle {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mes-ano {
+    display: flex;
+    justify-content: space-around;
+  }
+  .seta {
+    width: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
   /* containers */
   .conteudo-principal {
+    padding: 10px;
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
   }
-  .container-calendario {
-    width: 10%;
-  }
   .container-cursos {
-    width: 82.6%;
+    width: 75%;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
   }
   .container-curso-pai {
-    width: 20rem;
+    width: 18rem;
     height: 15rem;
     background-color: white;
     border: 1px solid rgba(0,0,0,0.6);

@@ -41,6 +41,15 @@ body {
     color: #989EA6;
     border-radius: 1px;
   }
+  .mes-ano {
+    display: flex;
+    justify-content: space-around;
+  }
+  .seta {
+    width: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
   :right{
     
   }
