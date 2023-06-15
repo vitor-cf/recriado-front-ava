@@ -2,257 +2,35 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <title>AVA</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="icon" href="img/icones/favicon-32x32.png" type="image/png">
+  <title>Ava-login</title>
 </head>
 
 <body>
-    <!-- Header -->
-    <object data="componentes/menu.html" class="componente-menu"></object>
-    <!-- Subtitle -->
-    <div class="subtitle">
-        <h2>Cursos</h2>
+  <div class="logo">
+    <img src="img/logo.svg" alt="logoAva">
+  </div>
+  <div class="align">
+    <div class="containerLogin">
+      <p class="text">Você possui uma conta?</p>
+      <div class="inputSection">
+        <div class="input">
+          <span class="user"><img src="/img/Complete.svg" alt=""></span><input type="email" name="" id="" class="inpt">
+        </div>
+        <div class="input">
+          <span class="user"><img src="/img/password-svgrepo-com 1.svg" alt=""></span><input type="password" name=""
+            id="" class="inpt">
+        </div>
+        <button type="submit" class="acessar">Acessar</button>
+      </div>
     </div>
-    <!-- main -->
-    <main>
-        <div class="conteudo-principal">
-            <!-- Calendario(componente) + Filtro + Chat -->
-            <div class="container-calendario">
-                <object data="componentes/calendario.html" class="componente-menu"></object>
-            </div>
-            <!-- Containers meus cursos -->
-            <div class="container-cursos">
-                <!-- container 1 -->
-                <div class="container-curso-pai">
-                    <!-- container color -->
-                    <div class="container-bg-color bg-green container-flex-col">
-                        <!-- Nome materia + nome professor -->
-                        <div>
-                            <div>
-                                <p class="txt-materia">NOMEMATERIA</p>
-                                <p class="txt-professor">PROFESSOR</p>
-                            </div>
-                            <!-- AVATAR -->
-                            <div>
-
-                            </div>
-                        </div>
-                        <!-- Informacoes do curso -->
-                        <div class="info-curso">
-                            <div class="estilo-button">
-                                <span class="text-info-curso">TURMA A</span>
-                            </div>
-                            <div class="estilo-button">
-                                <span class="text-info-curso">PRESENCIAL</span>
-                            </div>
-                            <div class="estilo-button">
-                                <span class="text-info-curso">NOTURNO</span>
-                            </div>
-                            <div class="estilo-button">
-                                <span class="text-info-curso">LAMI - 2</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- BOTAO ACESSAR -->
-                    <div class="container-btn">
-                        <button type="button" class="btn-acessar">ACESSAR</button>
-                    </div>
-                </div>
-                <!-- container 2 -->
-                <div class="container-curso-pai">
-                    <!-- container color -->
-                    <div class="container-bg-color bg-purple container-flex-col">
-                        <!-- Nome materia + nome professor -->
-                        <div>
-                            <div>
-                                <p class="txt-materia">NOMEMATERIA</p>
-                                <p class="txt-professor">PROFESSOR</p>
-                            </div>
-                            <!-- AVATAR -->
-                            <div>
-
-                            </div>
-                        </div>
-                        <!-- Informacoes do curso -->
-                        <div class="info-curso">
-                            <div class="estilo-button">
-                                <span class="text-info-curso">TURMA A</span>
-                            </div>
-                            <div class="estilo-button">
-                                <span class="text-info-curso">PRESENCIAL</span>
-                            </div>
-                            <div class="estilo-button">
-                                <span class="text-info-curso">NOTURNO</span>
-                            </div>
-                            <div class="estilo-button">
-                                <span class="text-info-curso">LAMI - 2</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- BOTAO ACESSAR -->
-                    <div class="container-btn">
-                        <button type="button" class="btn-acessar">ACESSAR</button>
-                    </div>
-                </div>
-                <!-- container 3 -->
-                <div class="container-curso-pai">
-                    <!-- container color -->
-                    <div class="container-bg-color bg-green-clean container-flex-col">
-                        <!-- Nome materia + nome professor -->
-                        <div>
-                            <div>
-                                <p class="txt-materia">NOMEMATERIA</p>
-                                <p class="txt-professor">PROFESSOR</p>
-                            </div>
-                            <!-- AVATAR -->
-                            <div>
-
-                            </div>
-                        </div>
-                        <!-- Informacoes do curso -->
-                        <div class="info-curso">
-                            <div class="estilo-button">
-                                <span class="text-info-curso">TURMA A</span>
-                            </div>
-                            <div class="estilo-button">
-                                <span class="text-info-curso">PRESENCIAL</span>
-                            </div>
-                            <div class="estilo-button">
-                                <span class="text-info-curso">NOTURNO</span>
-                            </div>
-                            <div class="estilo-button">
-                                <span class="text-info-curso">LAMI - 2</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- BOTAO ACESSAR -->
-                    <div class="container-btn">
-                        <button type="button" class="btn-acessar">ACESSAR</button>
-                    </div>
-                </div>
-                <!-- container 4 -->
-                <div class="container-curso-pai">
-                    <!-- container color -->
-                    <div class="container-bg-color bg-blue container-flex-col">
-                        <!-- Nome materia + nome professor -->
-                        <div>
-                            <div>
-                                <p class="txt-materia">NOMEMATERIA</p>
-                                <p class="txt-professor">PROFESSOR</p>
-                            </div>
-                            <!-- AVATAR -->
-                            <div>
-
-                            </div>
-                        </div>
-                        <!-- Informacoes do curso -->
-                        <div class="info-curso">
-                            <div class="estilo-button">
-                                <span class="text-info-curso">TURMA A</span>
-                            </div>
-                            <div class="estilo-button">
-                                <span class="text-info-curso">PRESENCIAL</span>
-                            </div>
-                            <div class="estilo-button">
-                                <span class="text-info-curso">NOTURNO</span>
-                            </div>
-                            <div class="estilo-button">
-                                <span class="text-info-curso">LAMI - 2</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- BOTAO ACESSAR -->
-                    <div class="container-btn">
-                        <button type="button" class="btn-acessar">ACESSAR</button>
-                    </div>
-                </div>
-                <!-- container 5 -->
-                <div class="container-curso-pai">
-                    <!-- container color -->
-                    <div class="container-bg-color bg-red container-flex-col">
-                        <!-- Nome materia + nome professor -->
-                        <div>
-                            <div>
-                                <p class="txt-materia">NOMEMATERIA</p>
-                                <p class="txt-professor">PROFESSOR</p>
-                            </div>
-                            <!-- AVATAR -->
-                            <div>
-
-                            </div>
-                        </div>
-                        <!-- Informacoes do curso -->
-                        <div class="info-curso">
-                            <div class="estilo-button">
-                                <span class="text-info-curso">TURMA A</span>
-                            </div>
-                            <div class="estilo-button">
-                                <span class="text-info-curso">PRESENCIAL</span>
-                            </div>
-                            <div class="estilo-button">
-                                <span class="text-info-curso">NOTURNO</span>
-                            </div>
-                            <div class="estilo-button">
-                                <span class="text-info-curso">LAMI - 2</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- BOTAO ACESSAR -->
-                    <div class="container-btn">
-                        <button type="button" class="btn-acessar">ACESSAR</button>
-                    </div>
-                </div>
-                <!-- container 6 -->
-                <div class="container-curso-pai">
-                    <!-- container color -->
-                    <div class="container-bg-color bg-grey container-flex-col">
-                        <!-- Nome materia + nome professor -->
-                        <div>
-                            <div>
-                                <p class="txt-materia">NOMEMATERIA</p>
-                                <p class="txt-professor">PROFESSOR</p>
-                            </div>
-                            <!-- AVATAR -->
-                            <div>
-
-                            </div>
-                        </div>
-                        <!-- Informacoes do curso -->
-                        <div class="info-curso">
-                            <div class="estilo-button">
-                                <span class="text-info-curso">TURMA A</span>
-                            </div>
-                            <div class="estilo-button">
-                                <span class="text-info-curso">PRESENCIAL</span>
-                            </div>
-                            <div class="estilo-button">
-                                <span class="text-info-curso">NOTURNO</span>
-                            </div>
-                            <div class="estilo-button">
-                                <span class="text-info-curso">LAMI - 2</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- BOTAO ACESSAR -->
-                    <div class="container-btn">
-                        <button type="button" class="btn-acessar">ACESSAR</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-    <footer>
-        <div class="footer-flex">
-            <p class="txt-footer">Copyright © 2023 NED. Todos os direitos reservados.</p>
-        </div>
-    </footer>
+  </div>
 </body>
 
 </html>

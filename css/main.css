@@ -6,6 +6,15 @@
 body {
   background-color: #EFF6FF;
 }
+.container-coluna-esquerda {
+  display: block;
+}
+.layout-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 87.5vh;
+}
 /* MENU STYLE */
 .container {
     display: flex;
@@ -47,6 +56,9 @@ body {
     width: 100%;
     height: 100%;
   }
+  .icone-menu {
+    display: none;
+  }
   /* Subtitle */
   .subtitle {
     width: 29.5%;
@@ -61,6 +73,9 @@ body {
     font-size: 18px;
   }
    /* Calendario */
+   .container-calendario {
+    height: 20rem;
+   }
    .calendar {
     width: 258px;
     height: 276px;
@@ -206,6 +221,9 @@ body {
     color: #363B47;
     font-size: 14px;
   }
+  .container-eventos {
+    width: 80%;
+  }
   /* footer */
   .footer-flex {
     margin-top: 1rem;
@@ -216,3 +234,193 @@ body {
   .txt-footer {
     font-size: 12px;
   }
+  .bg-footer-color {
+    display: none;
+  }
+  /* Checkbox */
+  .container-checkbox {
+    margin-top: 15px;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .txt {
+    font-size: 15px;
+  }
+  .c-label-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+/* Conversas */
+.container-conversas {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* icone seta estilo */
+.rotacionado {
+  transform: rotate(90deg);
+}
+.container-visivel {
+  display: flex;
+}
+/* descricao curso */
+.container-info-descricao {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 15px;
+  height: 12rem;
+}
+.container-img {
+  display: flex;
+  justify-content: end;
+}
+.container-diretorio-info {
+  display: flex;
+  flex-direction: column;
+  height: 20rem;
+  justify-content: space-around;
+  align-items: start;
+}
+.bg-text-info {
+  background-color: rgba(54, 59, 71, 1);
+  border-radius: 16px;
+  padding: 20px;
+}
+.bg-text-info > p {
+  color: #CCCCCC;
+  font-size: 13px;
+}
+/* media queries cursos */
+@media (min-width: 820px) and (max-width:1024px) {
+  .container-calendario {
+    display: none;
+  }
+  .container-curso-pai {
+    width: 25rem;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .icones {
+    display: none;
+  }
+  .icone-menu {
+    margin-right: 20px;
+    display: block;
+  }
+   /* footer */
+   .footer-flex {
+    display: none;
+  }
+  .icone-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .bg-menu-mobile {
+    padding: 10px;
+    border-radius: 10px;
+    background-color:#FAA831 ;
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu-mobile-txt {
+    font-size: 12px;
+    color: #323232;
+  }
+  .bg-footer-color {
+    display: block;
+    background-color: #1E1E1E;
+    padding: 10px;
+  }
+}
+@media (min-width: 360px) and (max-width: 819px){
+  .container-calendario {
+    display: none;
+  }
+  .subtitle {
+    display: none;
+  }
+  /* container cursos */
+  .txt-materia {
+    font-size: 14px;
+  }
+  .txt-professor {
+    font-size: 12px;
+  }
+  .info-curso {
+    border-radius: 25px;
+    margin-top: 5px;
+    gap: 5px;
+  }
+  .container-btn{
+    display: none;
+  }
+  main {
+    overflow: scroll;
+  }
+  .container-curso-pai {
+    border-radius: 25px;
+    width: 25rem;
+    height: 6rem;
+  }
+  .container-bg-color {
+    height: 4.8rem;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .icones {
+    display: none;
+  }
+  .icone-menu {
+    margin-right: 20px;
+    display: block;
+  }
+  .container-coluna-esquerda {
+    display: none;
+  }
+  /* footer */
+  .footer-flex {
+    display: none;
+  }
+  .icone-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .bg-menu-mobile {
+    padding: 10px;
+    border-radius: 10px;
+    background-color:#FAA831 ;
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu-mobile-txt {
+    font-size: 12px;
+    color: #323232;
+  }
+  .bg-footer-color {
+    display: block;
+    /* background-color: #1E1E1E; */
+    padding: 10px;
+  }
+  /* descricao curso */
+  .container-info-descricao {
+    min-width: 10rem;
+    flex-direction: row;
+    display: flex;
+    height: fit-content;
+  }
+  .img-desc {
+    width: 7rem;
+  }
+  
+}
