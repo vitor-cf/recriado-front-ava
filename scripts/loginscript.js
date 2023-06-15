@@ -44,7 +44,7 @@ function validarPass(){
   return true;
 }
 function redirecionar(){
-  window.location.href = "/index.html";
+  window.location.href = "pages/home.html";
 }
 
 const erroImg = document.querySelector('.erro')
@@ -55,6 +55,3 @@ function emitirErro(){
     redirecionar();
   }
 }
-
-// const button = document.querySelector('.acessar');
-// button.addEventListener('click',emitirErro);
