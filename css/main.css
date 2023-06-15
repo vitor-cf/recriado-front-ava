@@ -273,35 +273,6 @@ body {
 .container-visivel {
   display: flex;
 }
-/* descricao curso */
-.container-info-descricao {
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  gap: 15px;
-  height: 12rem;
-}
-.container-img {
-  display: flex;
-  justify-content: end;
-}
-.container-diretorio-info {
-  display: flex;
-  flex-direction: column;
-  height: 20rem;
-  justify-content: space-around;
-  align-items: start;
-}
-.bg-text-info {
-  background-color: rgba(54, 59, 71, 1);
-  border-radius: 16px;
-  padding: 20px;
-}
-.bg-text-info > p {
-  color: #CCCCCC;
-  font-size: 13px;
-}
 /* media queries cursos */
 @media (min-width: 820px) and (max-width:1024px) {
   .container-calendario {
