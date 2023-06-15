@@ -216,3 +216,16 @@ span{
     margin-top: 2rem;
   }
  }
+ .erro{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-family: 'inter' , sans-serif;
+  font-size: larger;
+  margin-bottom: 3rem;
+  height: 5rem;
+  color: #2F2E41;
+  background-color: #FAA831;
+  border-radius: 4px;
+  padding: 0.5rem;
+ }
